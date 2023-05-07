@@ -2,7 +2,7 @@ diff --git a/Sources/Build/BuildPlan.swift b/Sources/Build/BuildPlan.swift
 index cfbc76ae..03272c4b 100644
 --- a/Sources/Build/BuildPlan.swift
 +++ b/Sources/Build/BuildPlan.swift
-@@ -1125,6 +1125,7 @@ public final class ProductBuildDescription {
+@@ -1481,6 +1481,7 @@ public final class ProductBuildDescription {
          // adjacent to the product.
          if buildParameters.triple.isLinux() {
              args += ["-Xlinker", "-rpath=$ORIGIN"]
